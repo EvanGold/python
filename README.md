@@ -1,2 +1,2 @@
 # python
-Python code I wrote.
+Sample python code I wrote.
