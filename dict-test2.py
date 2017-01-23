@@ -31,3 +31,31 @@ for x in cars:
 	print ('|'),
     print
 
+######################
+
+print "---------"
+cars = {'shares':1700, 'symbol':'AMZN'}
+print (cars)
+
+for x in cars:
+#    for y in cars[x]:
+#	print (x),
+	print cars.get(x),
+#        print (cars[x][y]),
+        print ('|'),
+print
+
+
+######################
+
+print "---------"
+cars = {'shares':1700, 'symbol':'AMZN'}
+print (cars)
+
+for x in cars:
+        print cars.get(x),
+        print ('|'),
+print
+
+
+######################
