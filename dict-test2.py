@@ -34,7 +34,8 @@ for x in cars:
 ######################
 
 print "---------"
-cars = {'shares':1700, 'symbol':'AMZN'}
+#cars = {'shares':1700, 'symbol':'AMZN'}
+cars = {'shares':1700, 'symbol':'AMZN', 'acct#':123456}
 print (cars)
 
 for x in cars:
@@ -48,14 +49,20 @@ print
 
 ######################
 
-print "---------"
-cars = {'shares':1700, 'symbol':'AMZN'}
-print (cars)
+print "---55555------"
+cars = {'shares':1700, 'symbol':'AMZN', 'acct#':123456}
+#print (cars)
 
 for x in cars:
-        print cars.get(x),
+        #print cars.get(x),
+        print cars.get(x,'NODATA'),
+#	x='short'
+#        print cars.get(x,'NODATA'),
         print ('|'),
 print
 
+x='symbol'
+x='short'
+print cars.get(x,'ERROR'),
 
 ######################
